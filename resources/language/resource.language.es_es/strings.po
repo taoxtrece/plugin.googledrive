@@ -3,42 +3,42 @@
 # Addon id: plugin.googledrive
 # Addon Provider: Carlos Guzman (cguZZman)
 msgid ""
-msgstr ""
+msgstr "taoxtrece"
 "Project-Id-Version: Kodi Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
+"Last-Translator: Taox Trece\n"
 "Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: en_ES"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#32000"
-msgid "Account"
-msgstr "Cuenta"
+msgid "Player Service"
+msgstr "Servicio del reproductor"
 
 msgctxt "#32001"
-msgid "Video Library Export Folder"
-msgstr "Directorio de exportación de la biblioteca de vídeos"
+msgid "Export Service"
+msgstr "Servicio de exportación"
 
 msgctxt "#32002"
-msgid "Music Library Export Folder"
-msgstr "Directorio de exportación de la biblioteca de música"
+msgid "Source Service"
+msgstr "Servicio de fuente"
 
 msgctxt "#32003"
-msgid "Before export to library, remove previous files and folders"
-msgstr "Antes de exportar a biblioteca, eliminar ficheros y directorios anteriores"
+msgid "Before full export, remove previous local files and folders"
+msgstr "Antes de exportar completamente, eliminar los archivos y carpetas locales"
 
 msgctxt "#32004"
-msgid "When playing videos, set the subtitle file located next to the video (.srt)"
-msgstr "Durante la reproducción de vídeo, establecer el fichero de subítulos ubicado junto al vídeo (.srt)"
+msgid "Automatically set subtitles from cloud drive"
+msgstr "Configurar subtítulos automáticamente desde la unidad en la nube"
 
 msgctxt "#32005"
 msgid "Auto-Refreshed slideshow"
-msgstr "Actualizar automaticamente las diapositivas"
+msgstr "Actualizar automáticamente la presentación de dispositivas"
 
 msgctxt "#32006"
 msgid "Refresh interval in minutes"
@@ -46,40 +46,120 @@ msgstr "Intervalo de actualización en minutos"
 
 msgctxt "#32007"
 msgid "Google Photos"
-msgstr "Google Photos"
+msgstr "Google Fotos"
 
 msgctxt "#32008"
 msgid "Always ask for the stream format before play"
-msgstr "Preguntar siempre por el formato de la reproducción"
+msgstr "Pregunte siempre por el formato de transmisión antes de reproducir"
 
 msgctxt "#32009"
 msgid "Loading stream formats..."
-msgstr "Cargando formatos de reproducción"
+msgstr "Cargando formatos de transmisión..."
 
 msgctxt "#32010"
 msgid "Recursive auto-refreshed slideshow"
-msgstr "Auto-Actualizar recursivamente las diapositivas"
+msgstr "Presentación de diapositivas recursiva con actualización automática"
 
 msgctxt "#32011"
-msgid "Common Settings"
-msgstr "Ajustes"
+msgid "Resume playing when resume point exists in library"
+msgstr "Reanudar la reproducción cuando exista un punto de reanudación en la videoteca"
 
 msgctxt "#32012"
 msgid "Open Cloud Drive Common Settings..."
-msgstr "Configuración de Drive..."
+msgstr "Abrir ajustes de Cloud Drive Common..."
 
 msgctxt "#32013"
 msgid "My Drive"
-msgstr "Mi Disco"
+msgstr "Mi Unidad"
 
 msgctxt "#32014"
 msgid "Starred"
-msgstr "Seleccionados"
+msgstr "Destacados"
 
 msgctxt "#32015"
 msgid "Original format"
-msgstr "Formato original"
+msgstr "Formato Original"
 
 msgctxt "#32016"
 msgid "Select the stream format"
-msgstr "Seleccionar formato de la reproducción"
+msgstr "Seleccione el formato de transmisión"
+
+msgctxt "#32017"
+msgid "Ask to resume if resume point exists in library"
+msgstr "Solicitar reanudar si existe un punto de reanudación en la videoteca"
+
+msgctxt "#32018"
+msgid "Save resume points and watched status in library"
+msgstr "Guardar los puntos de reanudación y el estado observado en la videoteca"
+
+msgctxt "#32019"
+msgid "Do not include filename extension in a .strm"
+msgstr "No incluir la extensión del nombre de archivo en un .strm"
+
+msgctxt "#32020"
+msgid "Hide exporting progress dialog"
+msgstr "Ocultar diálogo de progreso de exportación"
+
+msgctxt "#32030"
+msgid "Collaboration"
+msgstr "Colaboración"
+
+msgctxt "#32031"
+msgid "Report errors automatically to help resolve them quickly"
+msgstr "Informar errores automáticamente para ayudar a resolverlos rápidamente"
+
+msgctxt "#32032"
+msgid "Advanced"
+msgstr "Avanzado"
+
+msgctxt "#32033"
+msgid "Sign-in Server"
+msgstr "Servidor de inicio de sesión"
+
+msgctxt "#32034"
+msgid "Cache expiration time (in minutes)"
+msgstr "Tiempo de caducidad de la caché (en minutos)"
+
+msgctxt "#32035"
+msgid "Clear cache now"
+msgstr "Limpiar caché ahora"
+
+msgctxt "#32067"
+msgid "Services"
+msgstr "Servicios"
+
+msgctxt "#32068"
+msgid "Allow using Google Drive as a source"
+msgstr "Permitir usar Google Drive como fuente"
+
+msgctxt "#32069"
+msgid "     Source server port  -  http://localhost:<port>/source"
+msgstr "     Puerto del servidor de origen  -  http://localhost:<port>/source"
+
+msgctxt "#32070"
+msgid "Default stream quality"
+msgstr "Calidad de transmisión predeterminada"
+
+msgctxt "#32071"
+msgid "Check for Google ban"
+msgstr "Verificar el baneo de Google"
+
+msgctxt "#32072"
+msgid "Banned: %s"
+msgstr "Baneado: %s"
+
+msgctxt "#32073"
+msgid "Response code: %s"
+msgstr "Código de respuesta: %s"
+
+msgctxt "#32074"
+msgid "Download metadata files (.nfo, .strm)"
+msgstr "Descargar archivos de metadatos (.nfo, .strm)"
+
+msgctxt "#32075"
+msgid "Skip unmodified files"
+msgstr "Omitir archivos no modificados"
+
+msgctxt "#32076"
+msgid "Play choosing stream format"
+msgstr "Reproducir eligiendo el formato de transmisión"
