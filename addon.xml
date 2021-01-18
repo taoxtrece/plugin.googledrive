@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.googledrive" name="Google Drive" version="1.4.10" provider-name="Carlos Guzman (cguZZman)">
+<addon id="plugin.googledrive" name="Google Drive" version="MOD" provider-name="Carlos Guzman (cguZZman) - [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="script.module.clouddrive.common" version="1.3.9"/>
+		<import addon="script.module.clouddrive.common" version="MOD"/>
+		<import addon="repository.taoxwizard" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>image audio video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">  
+        <dir>
+        	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/repository.taoxwizard/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en_GB">Google Drive for KODI</summary>
-		<description lang="en_GB">
-Play all your media from Google Drive including Videos, Music and Pictures (including Google Photos).
- - Unlimited number of accounts.
- - Team Drives support
- - Google Photos support
- - Search over your drive.
- - Auto-Refreshed slideshow.
- - Export your videos to your library (.strm files)
- - Use Google Drive as a source
- - This program is not affiliated with or sponsored by Google.
-		</description>
-		<summary lang="he_IL">כונן Google Drive של מיקרוסופט עבור קודי</summary>
-		<description lang="he_IL">
-הפעל את כל המדיה שלך מ- Google Drive כולל וידאו, מוסיקה ותמונות.
-  - מספר בלתי מוגבל של חשבונות.
-  - חיפוש ומציאת הכונן שלך.
-  - ריענון מצגת אוטומטית.
-  - ייצוא קטעי הווידאו לספרייה שלך (קבצי .strm)
-  - שימוש ב-Google Drive כמקור
-  - תוכנית זו אינה קשורה או ממומנת על ידי Google.
-		</description>
+		<description lang="en_GB">MOD by [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] for [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
+		<summary lang="es_ES">Google Drive for KODI</summary>
+		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
 		<license>GPL-3.0-or-later</license>
 		<source>https://github.com/cguZZman/plugin.googledrive</source>
 		<forum>https://github.com/cguZZman/plugin.googledrive/issues</forum>
@@ -39,10 +29,12 @@ Play all your media from Google Drive including Videos, Music and Pictures (incl
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/01.jpg</screenshot>
+			<screenshot>resources/screenshots/02.jpg</screenshot>
+			<screenshot>resources/screenshots/03.jpg</screenshot>
 		</assets>
 		<news>
-v1.4.10 released Nov 12, 2020:
-- Export improvements
+MOD release Jan 18, 2021.
 		</news>
 		<disclaimer lang="en_GB">
 This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
